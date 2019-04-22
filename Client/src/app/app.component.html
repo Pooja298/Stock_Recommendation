@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1 style="color: rgb(172, 30, 129); font-size: 40px;">
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<body>
+  <div class="icon-bar">
+  
+   
+     <button (click)="home()">Home</button>
+     <button (click)="login()">Login</button>
+     <button (click)="signUp()">SignUp</button>
+     
+    
+  </div>
+    
+      <div [@routeAnimation]="getAnimationData(routerOutlet)">
+          <router-outlet #routerOutlet="outlet"></router-outlet>
+        </div>
+       
+        <router-outlet name="popup"></router-outlet>
+
+
+<!-- Routed components go here -->
+</body>
+
+  
