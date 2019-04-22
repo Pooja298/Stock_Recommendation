@@ -1,0 +1,66 @@
+<h1 style="color: rgb(172, 30, 129); font-size: 30px;text-align:center">
+    Sector Wise Stock 
+</h1>
+<div>
+     <button (click)="Automotive()">Automotive</button>
+     <button (click)="Banking_Finance()">Banking&Finance</button>
+     <button (click)="Chemical()">Chemical</button>
+    </div>  
+
+<div style="text-align:left;width:500px;">
+    <h1 style="color: rgb(172, 30, 129); font-size: 30px;text-align:center">
+        {{ title }}!
+    </h1>
+  <table *ngIf="arrBirds">
+      <!-- ADD HEADERS -->
+      <tr>
+          
+              <th>Name of company</th>
+                  <th>Price</th>
+                  <th>currency</th>
+                  <th>price_open</th>
+                  <th>day_high</th>
+                  <th>day_low</th>
+                
+                 
+                  <th>change_pct</th>
+                  <th>close_yesterday</th>
+                  <th>market_cap</th>
+                  <th>volume</th>
+                  
+                  <th>shares</th>
+                  <th>stock_exchange_long</th>
+                  <th>stock_exchange_short</th>
+                 
+                  <th>last_trade_time</th>
+
+                  
+      </tr>
+
+      <!-- BIND ARRAY TO TABLE 
+      -->
+      <tr *ngFor="let bird of arrBirds">
+        
+              <td>{{bird.name}}</td>
+                 <td>{{bird.price}}</td>
+                  <td>{{bird.currency}}</td>
+                  <td>{{bird.price_open}}</td>
+                  <td>{{bird.day_high}}</td>
+                  <td>{{bird.day_low}}</td>
+                 
+                  <td>{{bird.change_pct}}</td>
+                  <td>{{bird.close_yesterday}}</td>
+                  <td>{{bird.market_cap}}</td>
+                  <td>{{bird.volume}}</td>
+                 
+                  <td>{{bird.shares}}</td>
+                  <td>{{bird.stock_exchange_long}}</td>
+                  <td>{{bird.stock_exchange_short}}</td>
+                  <td>{{bird.last_trade_time}}</td>
+                  
+                 
+                  
+      </tr>
+  </table>
+</div>
+
