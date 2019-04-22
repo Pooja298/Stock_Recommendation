@@ -1,0 +1,22 @@
+table, th, td 
+{
+    margin: 10px 0;
+    border: solid 1px #333;
+    padding: 2px 4px;
+    font: 15px Verdana;
+}
+th {
+    font-weight:bold;
+}
+button {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 10px 10px;
+  transition: all 0.3s ease;
+/* color: white;*/
+  font-size: 26px;
+   
+   margin: 6px 6px;
+   
+}
