@@ -1,0 +1,38 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+ 
+  
+  <body style="background-color: beige">
+    <form action="action_page.php">
+      
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label><br>
+        <input type="text" placeholder="Enter Username" name="uname" required><br>
+    
+        <label for="npsw"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter Password" id="npsw" name="npsw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+       <label for="repsw"><b>ReEnter Password</b></label><br>
+        <input type="password" placeholder="Enter Password"  id="repsw"name="repsw"pattern="(id.npsw==id.repsw)" 
+        title="Re-Enter password is  Same as Above" required><br>
+       
+
+
+
+
+
+        <button type="submit"(click)="forgetpass()">Change Password</button>
+       <!-- <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>--> 
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn" (click)="cancel()">Cancel</button>
+       
+      </div>
+    </form>
+   
+      <router-outlet ></router-outlet>
+  </body>
