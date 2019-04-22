@@ -1,0 +1,45 @@
+[{
+    "symbol": "Bank of India",
+    "name": "Bank of India",
+    "price": "96.60",
+    "currency": "Rupees",
+    "price_open": "199.20",
+    "day_high": "200.14",
+    "day_low": "196.21",
+    
+    
+    "change_pct": "-60.75(-38.61)",
+    "close_yesterday": "198.95",
+    "market_cap": "937727710576",
+    "volume": "27760668",
+   
+    "shares": "4715280000",
+    "stock_exchange_long": "NASDAQ Stock Exchange",
+    "stock_exchange_short": "NASDAQ",
+   
+   
+    "last_trade_time": "2019-04-12 16:00:01"
+},
+{
+    "symbol": "Bank of Mah",
+    "name": "Bank of Maharashtra",
+    "price": "15.84",
+    "currency": "Rupees",
+    "price_open": "199.20",
+    "day_high": "200.14",
+    "day_low": "196.21",
+    
+    
+    "change_pct": "-4.11(-20.60)",
+    "close_yesterday": "198.95",
+    "market_cap": "937727710576",
+    "volume": "27760668",
+    
+    "shares": "4715280000",
+    "stock_exchange_long": "NASDAQ Stock Exchange",
+    "stock_exchange_short": "NASDAQ",
+   
+   
+    "last_trade_time": "2019-04-12 16:00:01"
+
+}]
