@@ -1,0 +1,45 @@
+[{
+    "symbol": "Atul Auto",
+    "name": "Atul Auto",
+    "price": "333.05",
+    "currency": "Rupees",
+    "price_open": "199.20",
+    "day_high": "200.14",
+    "day_low": "196.21",
+    
+    
+    "change_pct": "0.55(0.17)",
+    "close_yesterday": "198.95",
+    "market_cap": "937727710576",
+    "volume": "27760668",
+   
+    "shares": "4715280000",
+    "stock_exchange_long": "NASDAQ Stock Exchange",
+    "stock_exchange_short": "NASDAQ",
+   
+   
+    "last_trade_time": "2019-04-12 16:00:01"
+},
+{
+    "symbol": "Bajaj Auto",
+    "name": "Bajaj Auto",
+    "price": "3063.00",
+    "currency": "Rupees",
+    "price_open": "199.20",
+    "day_high": "200.14",
+    "day_low": "196.21",
+    
+    
+    "change_pct": "-6.40(-0.21)",
+    "close_yesterday": "198.95",
+    "market_cap": "937727710576",
+    "volume": "27760668",
+    
+    "shares": "4715280000",
+    "stock_exchange_long": "NASDAQ Stock Exchange",
+    "stock_exchange_short": "NASDAQ",
+   
+   
+    "last_trade_time": "2019-04-12 16:00:01"
+
+}]
