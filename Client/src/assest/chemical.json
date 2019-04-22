@@ -1,0 +1,45 @@
+[{
+    "symbol": "Aarti Ind",
+    "name": "Aarti Ind",
+    "price": "1624.70",
+    "currency": "Rupees",
+    "price_open": "199.20",
+    "day_high": "200.14",
+    "day_low": "196.21",
+    
+    
+    "change_pct": "567.55(53.69)",
+    "close_yesterday": "198.95",
+    "market_cap": "937727710576",
+    "volume": "27760668",
+   
+    "shares": "4715280000",
+    "stock_exchange_long": "NASDAQ Stock Exchange",
+    "stock_exchange_short": "NASDAQ",
+   
+   
+    "last_trade_time": "2019-04-12 16:00:01"
+},
+{
+    "symbol": "Alkali Metals",
+    "name": "Alkali Metals",
+    "price": "45.00",
+    "currency": "Rupees",
+    "price_open": "199.20",
+    "day_high": "200.14",
+    "day_low": "196.21",
+    
+    
+    "change_pct": "-35.35(-44.00)",
+    "close_yesterday": "198.95",
+    "market_cap": "937727710576",
+    "volume": "27760668",
+    
+    "shares": "4715280000",
+    "stock_exchange_long": "NASDAQ Stock Exchange",
+    "stock_exchange_short": "NASDAQ",
+   
+   
+    "last_trade_time": "2019-04-12 16:00:01"
+
+}]
